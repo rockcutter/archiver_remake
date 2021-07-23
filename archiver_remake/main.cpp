@@ -5,7 +5,7 @@
 #include "FileTransfer.h"
 #include "OpenExplorer.h"
 
-//#define DEBUG
+#define DEBUG
 
 int InputInteger();
 
@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 		OpenExplorer(argv[0]);
 		return 0;
 	}
-	std::cout << "archiver-remake by rockcutter" << std::endl << "this>> ";
+	std::cout << "archiver-remake" << std::endl << "this>> ";
 	for (int i = 0; i < argc; i++) {
 		std::cout << argv[i] << std::endl;
 	}
